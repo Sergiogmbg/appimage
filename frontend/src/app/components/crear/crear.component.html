@@ -1,0 +1,7 @@
+<div class="fichaUsuario">
+    <form [formGroup]="formUser" (submit)="submit()"> <!-- Eventos con (), y [] para mapear con propiedades de una clase -->
+        Nombre: <input type="text" formControlName="nombre">
+        Foto: <input type="text" formControlName="foto">
+        <button type="submit">Enviar</button>
+    </form>
+</div>
